@@ -4,7 +4,7 @@
 // Engineer: Marco Bonato
 // 
 // Create Date: 09.10.2026 17:19:00
-// Design Name: blinky
+// Design Name: 
 // Module Name: blinky
 // Project Name: blinking-led
 // Target Devices: Basys 3
