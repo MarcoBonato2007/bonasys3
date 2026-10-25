@@ -105,6 +105,8 @@ module seven_seg_counter (
             sevenseg_counter <= sevenseg_counter + 1;
         end
 
+        // Pretty ugly button debouncing code
+        // Should replace with macros in future
         if (btnC && !btnC_disable) begin
             sevenseg_counter <= 0;
             btnC_disable <= 1;
